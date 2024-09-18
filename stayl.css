@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+.main{
+    display: flex;
+    padding: 10px 10px;
+    background-color: blue;
+    justify-content: space-around;
+    align-items: center;
+}
+.a1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+}
+.a2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;   
+    cursor: pointer;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.a3{
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  
+}
+.a4:hover{
+    color:black;
+    text-decoration: underline;
+    transition: 1s;
+}
+.tex1{
+    display: flex;
+    margin-left: 350px;
+    position: fixed;
+}
+.tex1 input{
+    border-radius: 50px;
+    border:1px solid rgb(36, 36, 36);
+    height: 50px;
+    width: 1250px;
+    position: fixed;
+    padding-left: 60px;
+    margin-top: 50px;
+}
+.tex1 i{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 65px;
+    z-index: 1;
+}
+.text90{
+    margin-left: 1080px;
+}
+.text90 i{
+    color: gray;
+    z-index: 1;
+    position: relative;
+}
+.text20 i{
+    font-size: 30px;
+    margin-top: 250px;
+}
+.main2{
+    background-color: rgb(231, 228, 228);
+    width: 100%;
+    height: 700px; 
+    position: relative;
+    top: 200px;
+}
+.img1 img{
+    width: 300px;
+    height: 300px;
+    padding-left: 60px;
+    border: 1px solid black;
+}
+
+    
